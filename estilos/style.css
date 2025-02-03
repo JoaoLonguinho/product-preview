@@ -1,0 +1,35 @@
+@media screen and (min-width: 992px){
+    main{
+        width: 540px;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .img-container{
+        width: 58%;
+    }
+    .img-mobile{
+        display: none;
+    }
+    .img-desktop{
+        display: flex;
+        height: 100%;
+    }
+    .info-container{
+        width: 50%;
+    }
+    .info-container h2{
+        font-size: 12px;
+        letter-spacing: 4px;
+    }
+    .info-container h1{
+        line-height: 1em;
+    }
+    .info-container p{
+        opacity: 0.8;
+        width: auto;
+        line-height: 1.6em;
+    }
+    button{
+        padding: 25px 0px;
+    }
+}

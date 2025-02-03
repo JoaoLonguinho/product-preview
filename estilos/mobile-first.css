@@ -18,12 +18,14 @@ main{
     width: 88vw;
     border-radius: 10px;
     overflow: hidden;
-    
     box-sizing: border-box;
     font-family: "montserrat", serif;
 }
 .img-container img{
     width: 100%;
+}
+.img-desktop{
+    display: none;
 }
 .info-container{
     display: flex;
@@ -44,10 +46,12 @@ h1{
     font-family: "Fraunces", serif;
     font-weight: 700;
     width: 80%;
+    font-size: 30px;
+    opacity: 0.9;
 }
 .product-desc{
     margin-top: 15px;
-    opacity: 0.5;
+    opacity: 0.8;
     font-size: 14px;
     width: 90%;
 }
@@ -66,7 +70,7 @@ h1{
 .old-price{
     font-family: "montserrat", serif;
     opacity: 0.5;
-    font-size: 14px;
+    font-size: 13px;
     text-decoration: line-through;
 }
 button{
