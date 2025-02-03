@@ -15,9 +15,71 @@ body{
 main{
     background-color: white;
     margin: auto;
-    width: 90vw;
-    height: 90vh;
+    width: 88vw;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    box-sizing: border-box;
+    font-family: "montserrat", serif;
 }
 .img-container img{
     width: 100%;
+}
+.info-container{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 50%;
+    padding: 25px;
+}
+main h2{
+    font-family: "montserrat", serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    opacity: 0.5;
+    margin-bottom: 15px;
+}
+h1{
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    width: 80%;
+}
+.product-desc{
+    margin-top: 15px;
+    opacity: 0.5;
+    font-size: 14px;
+    width: 90%;
+}
+.prices{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.new-price{
+    font-family: "Fraunces", serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    font-weight: 700;
+}
+.old-price{
+    font-family: "montserrat", serif;
+    opacity: 0.5;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+button{
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 15px;
+    color: white;
+    font-family: "montserrat", serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
